@@ -15,6 +15,7 @@
         Set of Java primitives enabling output tracking as described in Testing Without Mocks approach
     </description>
     <inceptionYear>2025</inceptionYear>
+    <url>https://github.com/Decision-Driven-Development/output-tracking</url>
     <organization>
         <name>Eugene Terekhov</name>
         <url>https://github.com/nergal-perm</url>
@@ -55,6 +56,12 @@
             </snapshots>
         </repository>
     </distributionManagement>
+
+    <scm>
+        <connection>scm:git@github.com:Decision-Driven-Development/output-tracking.git</connection>
+        <developerConnection>git@github.com:Decision-Driven-Development/output-tracking.git</developerConnection>
+        <url>https://github.com/Decision-Driven-Development/output-tracking</url>
+    </scm>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
