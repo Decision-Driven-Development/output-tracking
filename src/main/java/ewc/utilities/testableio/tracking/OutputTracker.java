@@ -55,7 +55,7 @@ public class OutputTracker<T> {
         this.data.add(output);
     }
 
-    List<T> stopTracking() {
+    public List<T> stopTracking() {
         this.listener.stopTracking(this);
         return this.clear();
     }
